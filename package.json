@@ -1,0 +1,10 @@
+{
+  "name": "@mkaliezz/dsh-test-runner",
+  "version": "0.1.0",
+  "type": "module",
+  "private": false,
+  "description": "DSH plugin: dsh-test-runner",
+  "license": "MIT",
+  "scripts": {"test": "node --test"},
+  "keywords": ["dsh-plugin", "deepseek-harness"]
+}
