@@ -1,1 +1,0 @@
-import {parseTestOutput} from './core.js'; export function registerTestRunner(ctx,{run}){ctx.command?.('test',async (...args)=>{const r=await run(args); return JSON.stringify(parseTestOutput(r.stdout??''),null,2);});}
