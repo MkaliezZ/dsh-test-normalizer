@@ -1,4 +1,4 @@
-# dsh-test-runner
+# dsh-test-normalizer
 
 Structured test-result normalization for DSH.
 
